@@ -262,15 +262,40 @@ export const SERVICES: Service[] = [
   },
 
   // 5. Business & Software Solutions
-  {
-    id: 'billing-software',
-    title: 'Restaurant & Hotel Billing Software',
-    description: 'Low-cost billing solutions with Swiggy & Zomato integration and 24/7 support.',
-    icon: 'Receipt',
-    category: 'business',
-    image: 'https://images.unsplash.com/photo-1556742111-a301076d9d18?auto=format&fit=crop&q=80&w=800',
-    features: ['Swiggy/Zomato Integration', '24/7 Technical Support', 'Inventory Management', 'Free Demo Available']
-  },
+// 5. Business & Software Solutions
+{
+  id: 'billing-software',
+  title: 'Restaurant & Hotel Billing Software',
+  description: 'Low-cost billing solutions with Swiggy & Zomato integration and 24/7 support.',
+  icon: 'Receipt',
+  category: 'business',
+  image: 'https://images.unsplash.com/photo-1556742111-a301076d9d18?auto=format&fit=crop&q=80&w=800',
+
+  plans: [
+    {
+      name: 'Lite',
+      desc: 'Basic Billing',
+      price: '₹3,333+'
+    },
+    {
+      name: 'Pro',
+      desc: 'Full Integration',
+      price: '₹5,555+'
+    },
+    {
+      name: 'Ultra',
+      desc: 'Enterprise',
+      price: '₹7,999+'
+    }
+  ],
+
+  features: [
+    'Swiggy/Zomato Integration',
+    '24/7 Technical Support',
+    'Inventory Management',
+    'Free Demo Available'
+  ]
+},
   {
     id: 'crm-setup',
     title: 'CRM Setup for Businesses',
