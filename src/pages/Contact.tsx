@@ -70,8 +70,8 @@ const Contact = () => {
                 </div>
                 <h3 className="text-xl font-bold text-secondary mb-2">Email Us</h3>
                 <p className="text-gray-600 mb-4">Our team is ready to help.</p>
-                <a href="mailto:consal@jksolutionsgroup.com" className="text-primary font-bold hover:underline">
-                  consal@jksolutionsgroup.com
+                <a href="mailto:consult@jksolutionsgroup.org" className="text-primary font-bold hover:underline">
+                  consult@jksolutionsgroup.org
                 </a>
               </div>
 
